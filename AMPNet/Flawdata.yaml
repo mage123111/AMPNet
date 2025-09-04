@@ -1,0 +1,9 @@
+path: "C:/Object Detection/2024-1/ultralytics-main 418/ultralytics-main/datasets"  # dataset root dir
+train: images/train # train images (relative to 'path')  465 images
+val: images/val  # val images (relative to 'path') 98 images
+test: images/test  # test images (relative to 'path') 102 images
+
+nc: 1
+# Classes
+names:
+  0: crack
